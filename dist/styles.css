@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+}
+
+main:has(#traps:not([hidden])) h2[hidden] {
+  display: block;
+}
